@@ -16,7 +16,7 @@ local function install_package(package_name)
         print("Package not found: " .. package_file)
         return
     end
-    
+
     utils.create_dir(install_dir)
     utils.unzip(package_file, install_dir)
 
